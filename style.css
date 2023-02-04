@@ -10,6 +10,8 @@
 body{
     background-color: var(--cream);
     display: flex;
+    gap: 2rem;
+    flex-direction: column;
     justify-content: center;
     height: 100vh;
     align-items: center;
@@ -115,6 +117,19 @@ article footer .btn-card .icon-cart{
     width: 1.5rem;
 }
 
+footer{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+footer img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 @media screen and (min-width: 880px) {
     article{
         flex-direction: row;
@@ -139,4 +154,9 @@ article footer .btn-card .icon-cart{
     article footer .btn-card:hover{
         background-color: var(--dark-cyan-active);
     }
+
+    footer a {
+        cursor: pointer;
+    }
+    
 }
