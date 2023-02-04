@@ -1,0 +1,28 @@
+.modal-notificator{
+    display: none;
+    position: absolute;
+    top: 1em;
+    border-radius: 1rem;
+    width: 20rem;
+    padding: 2rem;
+    background-color: var(--very-dark-blue);
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+}
+
+.modal-notificator p {
+    color: var(--white);
+}
+
+.modal-notificator p span {
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    padding: 0.5rem;
+    border-radius: 0.5rem;;
+}
+
+@media screen and (min-width: 880px) { 
+    .modal-notificator{
+        right: 2rem;
+    }
+}
